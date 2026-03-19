@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Google Sans Code';
+    src: url('external/GoogleSansCode-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: "Google Sans Code";
+}
+
+#title, #nonseed {
+  opacity: 50%;
+}
+
+#canvas {
+  width: 100%;
+}
+
+#output {
+  margin-top: 20px;
+  background: #eee;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+#output div {
+  padding-bottom: 10px;
+  word-wrap: break-word;
+}
+
+#overlay {
+  position: absolute;
+  x: 0;
+  y: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 300%;
+}
+
+#overlay.success {
+  background-color: green;
+}
+
+#overlay.signfail {
+  background-color: red;
+}
+
+#overlay.fail {
+  background-color: red;
+}
+
+*[hidden] {
+  display: none !important;
+}

@@ -1,0 +1,77 @@
+case:
+  type: web
+  title: Did Chinese hack Cabinet secretary’s laptop?
+  url:
+    value: https://www.nbcnews.com/id/wbna24880526
+    date: 2026-03-12
+  date: 2008-05-30
+  language: en
+
+attack-origin:
+  type: web
+  title: "Why do I miss Microsoft BitLocker?"
+  url:
+    value: https://theinvisiblethings.blogspot.com/2009/01/why-do-i-miss-microsoft-bitlocker.html
+    date: 2026-03-13
+  date: 2009-01-21
+  language: en
+  author: Joanna Rutkowska
+
+ownerboot:
+  type: repository
+  title: Bootloader for owner-controlled computers
+  date: 2025-01-13
+  language: en
+  parent:
+    type: web
+    url:
+      value: https://codeberg.org/amjoseph/ownerboot/src/commit/46c3dc34ce26a9a8e7caa1114b148b05e5ee17d5
+      date: 2026-03-11
+
+bitlocker-vuln:
+  type: video
+  title: "Windows BitLocker: Screwed without a Screwdriver"
+  date: 2024-12-28
+  runtime: "00:56:39"
+  language: en
+  parent:
+    type: web
+    url:
+      value: https://media.ccc.de/v/38c3-windows-bitlocker-screwed-without-a-screwdriver
+      date: 2026-03-11
+
+qubesos-aem:
+  type: web
+  title: Anti Evil Maid
+  url:
+    value: https://blog.invisiblethings.org/2011/09/07/anti-evil-maid.html
+    date: 2026-03-11
+  date: 2011-09-07
+  language: en
+
+tpm-book: &tpmbook
+  type: book
+  title: "A Practical Guide to TPM 2.0: Using the Trusted Platform Module in the New Age of Security"
+  edition: 1
+  author: Will Arthur; David Challener
+  publisher: Apress
+  date: 2015-01-24
+  serial-number:
+    isbn: "9781430265832"
+  language: en
+ 
+qubesos-aem-bash:
+  type: repository
+  title: "QubesOS component: antievilmaid"
+  date: 2024-08-21
+  language: en
+  parent:
+    type: web
+    url:
+      value: https://github.com/QubesOS/qubes-antievilmaid/tree/c085d776c499618cffbb4de062a43c39dd85920d
+      date: 2026-03-13
+
+tpm-pcr-0:
+  type: chapter
+  title: "Chapter 12. Platform Configuration Registers"
+  parent: *tpmbook
