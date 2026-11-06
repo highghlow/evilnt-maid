@@ -168,7 +168,6 @@ in
     );
 
     boot.initrd.systemd = {
-      enable = true;
       storePaths = with pkgs; [
         evilnt-maid-attest
         nzc
